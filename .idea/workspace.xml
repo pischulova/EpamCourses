@@ -87,7 +87,7 @@
       <file leaf-file-name="SinglyLinkedList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/SinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="44" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1360">
+            <state line="46" column="44" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1394">
               <folding />
             </state>
           </provider>
@@ -96,7 +96,7 @@
       <file leaf-file-name="MyArray.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Containers/MyArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1326">
+            <state line="5" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1326">
               <folding />
             </state>
           </provider>
@@ -105,7 +105,7 @@
       <file leaf-file-name="MyList.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Containers/MyList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.29675812" vertical-offset="0" max-vertical-offset="935">
+            <state line="8" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.19508196" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -712,17 +712,22 @@
       <workItem from="1414953011740" duration="459000" />
       <workItem from="1415093613050" duration="8759000" />
       <workItem from="1415112146227" duration="2477000" />
-      <workItem from="1415116342627" duration="1554000" />
+      <workItem from="1415116342627" duration="1608000" />
+      <workItem from="1415118400891" duration="246000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1415118213048</created>
       <updated>1415118213048</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1415118345554</created>
+      <updated>1415118345554</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133952000" />
+    <option name="totallyTimeSpent" value="134252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -737,11 +742,10 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33962265" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -749,10 +753,11 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14787701" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9009434" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -942,9 +947,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/TravelAgency/TravelOffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="73" selection-start="2252" selection-end="2300" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1258">
-          <folding />
-        </state>
+        <state line="64" column="73" selection-start="2252" selection-end="2300" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1258" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/TravelAgency/Tour.java">
@@ -989,16 +992,12 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="624" column="17" selection-start="22586" selection-end="22586" vertical-scroll-proportion="0.0" vertical-offset="10269" max-vertical-offset="12886">
-          <folding />
-        </state>
+        <state line="624" column="17" selection-start="22586" selection-end="22586" vertical-scroll-proportion="0.0" vertical-offset="10269" max-vertical-offset="12886" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/MyHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="2278">
-          <folding />
-        </state>
+        <state line="58" column="0" selection-start="1465" selection-end="1465" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="2278" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/MyPriorityQueue.java">
@@ -1017,30 +1016,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="154" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649">
-          <folding />
-        </state>
+        <state line="13" column="5" selection-start="154" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/Fractions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
+        <state line="14" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="6" column="4" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/Size.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="42" selection-start="346" selection-end="346" vertical-scroll-proportion="0.4737705" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
+        <state line="17" column="42" selection-start="346" selection-end="346" vertical-scroll-proportion="0.4737705" vertical-offset="0" max-vertical-offset="610" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/SinglyLinkedList.java">
@@ -1059,7 +1050,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Containers/MyList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.29675812" vertical-offset="0" max-vertical-offset="935">
+        <state line="8" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.19508196" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
