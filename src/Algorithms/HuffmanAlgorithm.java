@@ -19,6 +19,8 @@ import java.util.TreeMap;
 public class HuffmanAlgorithm {
     PriorityQueue<Node> queue;
     TreeMap<Character, String> mapOfCodes;
+    char[] input;
+    String output;
     int queueSize;
 
     private static class Node implements Comparable<Node> {
@@ -54,6 +56,7 @@ public class HuffmanAlgorithm {
         queue = new PriorityQueue<>();
         queueSize = 0;
         mapOfCodes = new TreeMap<>();
+        output = "";
     }
 
     private String readFile(String fileName) {
@@ -69,7 +72,7 @@ public class HuffmanAlgorithm {
             line = br.readLine();
             while (line != null) {
                 sb.append(line);
-                sb.append(System.lineSeparator());
+                //sb.append(System.lineSeparator());
                 line = br.readLine();
             }
         } catch (IOException e) {
@@ -82,7 +85,7 @@ public class HuffmanAlgorithm {
 
     public void compress(String fileName) {
         String text = readFile(fileName);
-        char[] input = text.toCharArray();
+        input = text.toCharArray();
         Node root = buildTree(input);
         buildTable(mapOfCodes, root, new String());
 
@@ -91,6 +94,8 @@ public class HuffmanAlgorithm {
         while(it.hasNext())
             System.out.println(it.next());
 
+        encodeInput();
+        evaluateCompression();
     }
 
     private Node buildTree(char[] input) {
@@ -140,10 +145,19 @@ public class HuffmanAlgorithm {
         return min;
     }
 
-    public static void main(String[] args) {
-
-
+    private void encodeInput() {
+        for (char c : input) {
+            output += mapOfCodes.get(c);
+        }
+        System.out.println(output);
     }
 
-
+    private void evaluateCompression() {
+        double inputSize = input.length * 8;
+        double outputSize = output.length();
+        double compression = (1 - outputSize/inputSize)*100;
+        System.out.println("Input file size = " + inputSize);
+        System.out.println("Output file size = " + outputSize);
+        System.out.println("Performed " + String.format("%.2f", compression) + "% compression");
+    }
 }
