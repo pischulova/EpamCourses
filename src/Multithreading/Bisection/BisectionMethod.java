@@ -40,18 +40,13 @@ public class BisectionMethod {
                 e.printStackTrace();
             }
             root = thread.getRoot();
-            System.out.println(root);
             return root;
         }
-    }
-
-    public double getRoot() {
-        return root;
     }
 
     public static void main(String[] args) {
         BisectionMethod method = new BisectionMethod(1, 20);
 
-        System.out.println(method.findRoot());
+        System.out.printf("Root = %.3f", method.findRoot());
     }
 }

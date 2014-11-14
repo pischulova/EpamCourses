@@ -7,10 +7,10 @@ import Multithreading.Bisection.BisectionMethod.*;
  */
 public class BisectionThread extends Thread {
     Function function;
-    double firstArg, secondArg;
-    double root;
-    BisectionThread childThread;
-    final static double minInterval = 1;
+    private double firstArg, secondArg;
+    private double root;
+    private BisectionThread childThread;
+    final static double minInterval = 0.000001;
 
     public BisectionThread(Function function, double firstArg, double secondArg) {
         this.function = function;
@@ -21,10 +21,9 @@ public class BisectionThread extends Thread {
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName() + " started");
+        //System.out.println(Thread.currentThread().getName() + " started");
 
         double middle = (firstArg + secondArg) / 2;
-        System.out.println(secondArg - firstArg);
         if (Math.abs(secondArg - firstArg) <= minInterval)
             root = middle;
         else {
@@ -39,6 +38,7 @@ public class BisectionThread extends Thread {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            root = childThread.getRoot();
         }
     }
 
