@@ -36,7 +36,6 @@ public class SumCalculator {
             threadList.get(order).addData(i);
             if (++order == threadsNumber)
                 order = 0;
-
         }
         long startTime = System.currentTimeMillis();
         for (SumThread thread : threadList)
