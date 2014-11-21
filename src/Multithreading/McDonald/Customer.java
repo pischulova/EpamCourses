@@ -12,6 +12,7 @@ public class Customer extends Thread {
     final List<Cashtable> cashtableList;
     Cashtable cashtable;
     String name;
+    boolean isServed = false;
 
     public Customer(List<Cashtable> cashtableList, String name) {
         this.cashtableList = cashtableList;
@@ -21,7 +22,18 @@ public class Customer extends Thread {
     @Override
     public void run() {
         chooseCashtable();
+        if (cashtable.getState() == State.TIMED_WAITING) {
+            try {
+                this.sleep(4000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            if (!isServed) {
+                System.out.println(name + " is waiting to long.");
+                changeQueue();
+            }
 
+        }
     }
 
     public void chooseCashtable() {

@@ -40,9 +40,8 @@ public class Client extends Thread {
                     while (!readyDishes.contains(dish)) {
                         this.wait();
                     }
-                    System.out.println(this.getName() + " starts eating " + dish.toString()+"...");
+                    System.out.println(this.getName() + " is eating " + dish.toString()+"...");
                     this.sleep(dish.getTimeToEat());
-                    System.out.println(this.getName() + " finishes eating " + dish.toString()+".");
                 }
             }
         } catch (InterruptedException e) {

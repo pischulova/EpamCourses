@@ -53,23 +53,42 @@ public class SumCalculator {
     }
 
     public static void main(String[] args) {
-        SumCalculator calculator = new SumCalculator(1000, 1);
-        calculator.calculate();
-        calculator = new SumCalculator(100000, 2);
-        calculator.calculate();
-        calculator = new SumCalculator(100000, 3);
-        calculator.calculate();
-        calculator = new SumCalculator(100000, 5);
-        calculator.calculate();
-        calculator = new SumCalculator(100000, 10);
-        calculator.calculate();
-        calculator = new SumCalculator(100000, 20);
-        calculator.calculate();
-        calculator = new SumCalculator(100000, 50);
-        calculator.calculate();
-        calculator = new SumCalculator(100000, 100);
-        calculator.calculate();
-        calculator = new SumCalculator(100000, 200);
-        calculator.calculate();
+//        SumCalculator calculator = new SumCalculator(100000, 1);
+//        calculator.calculate();
+//        calculator = new SumCalculator(100000, 2);
+//        calculator.calculate();
+//        calculator = new SumCalculator(100000, 3);
+//        calculator.calculate();
+//        calculator = new SumCalculator(100000, 5);
+//        calculator.calculate();
+//        calculator = new SumCalculator(100000, 10);
+//        calculator.calculate();
+//        calculator = new SumCalculator(100000, 20);
+//        calculator.calculate();
+//        calculator = new SumCalculator(100000, 50);
+//        calculator.calculate();
+//        calculator = new SumCalculator(100000, 100);
+//        calculator.calculate();
+//        calculator = new SumCalculator(100000, 200);
+//        calculator.calculate();
+        SumCalc2 calc2 = new SumCalc2(100000, 1);
+        calc2.calculate();
+        calc2 = new SumCalc2(100000, 2);
+        calc2.calculate();
+        calc2 = new SumCalc2(100000, 3);
+        calc2.calculate();
+        calc2 = new SumCalc2(100000, 5);
+        calc2.calculate();
+        calc2 = new SumCalc2(100000, 10);
+        calc2.calculate();
+        calc2 = new SumCalc2(100000, 20);
+        calc2.calculate();
+        calc2 = new SumCalc2(100000, 50);
+        calc2.calculate();
+        calc2 = new SumCalc2(100000, 100);
+        calc2.calculate();
+        calc2 = new SumCalc2(100000, 200);
+        calc2.calculate();
+
     }
 }

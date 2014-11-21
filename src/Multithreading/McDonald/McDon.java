@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Свободная касса. В ресторане быстрого обслуживания есть несколько касс. Посетители стоят в очереди
+ * в конкретную кассу, но могут перейти в другую очередь при уменьшении или исчезновении там очереди.
+ * д/з №9
  * Created by А on 16.11.14.
  */
 public class McDon {
@@ -35,6 +38,7 @@ public class McDon {
         Customer c4 = new Customer(cashtableList, "Alex");
         Customer c5 = new Customer(cashtableList, "Monica");
         Customer c6 = new Customer(cashtableList, "John");
+        Customer c7 = new Customer(cashtableList, "Kathy");
         c1.start();
         c2.start();
         c2.sleep(2000);
@@ -43,6 +47,7 @@ public class McDon {
         c4.sleep(4000);
         c5.start();
         c6.start();
+        c7.start();
     }
 
 }

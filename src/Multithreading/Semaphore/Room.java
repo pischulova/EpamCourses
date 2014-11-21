@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
+ * Д/з №10
  * Created by А on 18.11.14.
  */
 public class Room {

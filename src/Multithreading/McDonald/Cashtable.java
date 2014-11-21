@@ -43,6 +43,7 @@ public class Cashtable extends Thread{
                 wait();
             }
             isBusy = true;
+            customer.isServed = true;
             System.out.println("Cashtable " + this.number + " is serving " + customer.name + "...");
             Thread.sleep(8000);
             queue.remove(customer);
