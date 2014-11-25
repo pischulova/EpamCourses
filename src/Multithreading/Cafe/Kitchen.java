@@ -8,13 +8,16 @@ import java.util.Queue;
 /**
  * Created by А on 16.11.14.
  */
-public class Kitchen extends Thread{
+public class Kitchen {
     Cook c1, c2, c3;
 
     public Kitchen() {
         c1 = new Cook(this, Dish.SOUP, "Mike");
         c2 = new Cook(this, Dish.CAKE, "John");
         c3 = new Cook(this, Dish.COFFEE, "Erlend");
+        c1.start();
+        c2.start();
+        c3.start();
     }
 
     public synchronized void recieveOrder(List<Dish> list, Client client) {
@@ -33,13 +36,6 @@ public class Kitchen extends Thread{
                     break;
             }
         }
-    }
-
-    @Override
-    public void run() {
-        c1.start();
-        c2.start();
-        c3.start();
     }
 
     public void deliverDish(Order order, Dish dish) {

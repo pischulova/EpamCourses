@@ -1,4 +1,4 @@
-package ChainOfResponsibility;
+package Patterns;
 
 /**
  * Created by А on 21.11.14.

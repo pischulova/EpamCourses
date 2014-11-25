@@ -1,4 +1,4 @@
-package Decorator;
+package Patterns.Decorator;
 
 /**
  * Created by А on 21.11.14.

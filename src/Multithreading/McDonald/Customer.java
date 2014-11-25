@@ -32,7 +32,6 @@ public class Customer extends Thread {
                 System.out.println(name + " is waiting to long.");
                 changeQueue();
             }
-
         }
     }
 

@@ -1,5 +1,7 @@
 package Multithreading.Semaphore;
 
+import Multithreading.Exceptions.IllegalActionException;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -16,6 +18,12 @@ public class Sofa {
     }
 
     public void acquire() throws InterruptedException {
+        if (queue.contains(Thread.currentThread()))
+            try {
+                throw new IllegalActionException();
+            } catch (IllegalActionException e) {
+                System.out.println("You can not acquire semaphore twice.");
+            }
         queue.add((Person)Thread.currentThread());
         synchronized (this) {
             while (queue.peek() != Thread.currentThread())
@@ -29,6 +37,12 @@ public class Sofa {
     }
 
     public synchronized void release() {
+        if (!queue.contains(Thread.currentThread()))
+            try {
+                throw new IllegalActionException();
+            } catch (IllegalActionException e) {
+                System.out.println("You can not release before acquire.");
+            }
         count++;
         notifyAll();
     }

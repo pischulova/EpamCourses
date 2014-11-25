@@ -13,10 +13,11 @@ package Multithreading.Cafe;
 public class Restaurant {
     public static void main(String[] args) {
         Kitchen kitchen = new Kitchen();
-        kitchen.start();
         Client c1 = new Client("Anna", kitchen);
         Client c2 = new Client("Paul", kitchen);
         Client c3 = new Client("Chris", kitchen);
+        Client c4 = new Client("Ivan", kitchen);
+        Client c5 = new Client("Kathy", kitchen);
 
     }
 }

@@ -1,68 +1,33 @@
 package OOP.TextProcessing;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.regex.Pattern;
+import java.util.List;
 
 /**
+ * Создать программу обработки текста учебника по программированию с использованием классов:
+ * Символ, Слово, Предложение, Знак препинания и др. Во всех задачах с формированием текста заменять табуляции
+ * и последовательности пробелов одним пробелом.
+ * 2.	Вывести все предложения заданного текста в порядке возрастания количества слов в каждом из них.
+ * 9.	Все слова текста рассортировать по возрастанию количества заданной буквы в слове.
+ *      Слова с одинаковым количеством расположить в алфавитном порядке.
+ *
  * Created by А on 20.11.14.
  */
 public class TextProcessor {
-    String fileName;
-    String input;
-    final String REGEX_PARAGRAPH = "(\t|\n|\r|\\s+)";
-    final String REGEX_SENTENCE = "(\\.|\\?|!|\\...)\\s*";
+    Text text;
 
     public TextProcessor(String fileName) {
-        this.fileName = fileName;
+        this.text = new Text(fileName);
     }
 
     public void process() {
-        input = readFile(fileName);
-        input = replaceParagraphs(input);
-        System.out.println(input);
-        getSentences(input);
-    }
+        text.getWholeText();
+        List<Sentence> list = text.getSentences();
+        //list.get(186).getWords();
 
-    private String readFile(String fileName) {
-        BufferedReader br = null;
-        try {
-            br = new BufferedReader(new FileReader(fileName));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        StringBuilder sb = new StringBuilder();
-        try {
-            String line = br.readLine();
-            while (line != null) {
-                sb.append(line);
-                line = br.readLine();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        String result = sb.toString();
-        System.out.println(result);
-        return result;
-    }
-
-    private String replaceParagraphs(String text) {
-        return text.replaceAll(REGEX_PARAGRAPH, " ");
-    }
-
-    private String[] getSentences(String text) {
-        Pattern pattern = Pattern.compile(REGEX_SENTENCE);
-        String[] sentences = pattern.split(text);
-        for (String s : sentences) {
-            System.out.println(s);
-        }
-        return sentences;
     }
 
     public static void main(String[] args) {
-        TextProcessor tp = new TextProcessor("file.txt");
+        TextProcessor tp = new TextProcessor("Introduction_to_Programming.txt");
         tp.process();
 
     }
