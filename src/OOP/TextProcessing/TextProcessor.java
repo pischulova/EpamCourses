@@ -1,7 +1,5 @@
 package OOP.TextProcessing;
 
-import java.util.List;
-
 /**
  * Создать программу обработки текста учебника по программированию с использованием классов:
  * Символ, Слово, Предложение, Знак препинания и др. Во всех задачах с формированием текста заменять табуляции
@@ -21,14 +19,15 @@ public class TextProcessor {
 
     public void process() {
         text.getWholeText();
-        List<Sentence> list = text.getSentences();
-        //list.get(186).getWords();
+        text.getSentences();
+        text.sortSentences();
+        text.getAllWords();
+        text.sortWordsByCharQty('e');
 
     }
 
     public static void main(String[] args) {
-        TextProcessor tp = new TextProcessor("Introduction_to_Programming.txt");
+        TextProcessor tp = new TextProcessor("Introduction_short.txt");
         tp.process();
-
     }
 }

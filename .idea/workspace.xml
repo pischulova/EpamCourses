@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b997aa25-c978-4bb6-a0b2-6ce7a5198edf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Patterns/Command/Command.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Multithreading/Exceptions/IllegalActionException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OOP/TextProcessing/Text.java" />
-      <change type="MOVED" beforePath="C:\Users\А\IdeaProjects\EpamCourses1\src\ChainOfResponsibility\Handler.java" afterPath="$PROJECT_DIR$/src/Patterns/Handler.java" />
-      <change type="MOVED" beforePath="C:\Users\А\IdeaProjects\EpamCourses1\src\Decorator\Product.java" afterPath="$PROJECT_DIR$/src/Patterns/Decorator/Product.java" />
-      <change type="MOVED" beforePath="C:\Users\А\IdeaProjects\EpamCourses1\src\OOP\TextProcessing\Symbol.java" afterPath="$PROJECT_DIR$/src/OOP/TextProcessing/Punctuation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Multithreading/McDonald/Customer.java" afterPath="$PROJECT_DIR$/src/Multithreading/McDonald/Customer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Multithreading/Cafe/Kitchen.java" afterPath="$PROJECT_DIR$/src/Multithreading/Cafe/Kitchen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Multithreading/Cafe/Restaurant.java" afterPath="$PROJECT_DIR$/src/Multithreading/Cafe/Restaurant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OOP/TextProcessing/Sentence.java" afterPath="$PROJECT_DIR$/src/OOP/TextProcessing/Sentence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Multithreading/Semaphore/Sofa.java" afterPath="$PROJECT_DIR$/src/Multithreading/Semaphore/Sofa.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OOP/TextProcessing/Text.java" afterPath="$PROJECT_DIR$/src/OOP/TextProcessing/Text.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java" afterPath="$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OOP/TextProcessing/Word.java" afterPath="$PROJECT_DIR$/src/OOP/TextProcessing/Word.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -82,9 +73,8 @@
       <file leaf-file-name="Punctuation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Punctuation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+            <state line="69" column="0" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
               <folding>
-                <element signature="e#1545#1546#0" expanded="true" />
                 <element signature="e#1572#1573#0" expanded="true" />
               </folding>
             </state>
@@ -94,10 +84,12 @@
       <file leaf-file-name="Word.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Word.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="37" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="459">
+            <state line="35" column="64" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
               <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,31 +98,28 @@
       <file leaf-file-name="Sentence.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Sentence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="5" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="1173">
+            <state line="78" column="12" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
               <folding>
-                <element signature="e#1677#1678#0" expanded="true" />
-                <element signature="e#1705#1706#0" expanded="true" />
+                <element signature="e#1669#1670#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Text.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Text.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Text.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.55737704" vertical-offset="0" max-vertical-offset="1156">
-              <folding>
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-              </folding>
+            <state line="77" column="0" selection-start="2154" selection-end="2154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextProcessor.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TextProcessor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="103" selection-start="316" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+            <state line="22" column="8" selection-start="815" selection-end="815" vertical-scroll-proportion="0.80085653" vertical-offset="0" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -195,11 +184,11 @@
         <option value="$PROJECT_DIR$/src/Multithreading/Semaphore/Sofa.java" />
         <option value="$PROJECT_DIR$/src/OOP/TextProcessing/Symbol.java" />
         <option value="$PROJECT_DIR$/file.txt" />
-        <option value="$PROJECT_DIR$/src/OOP/TextProcessing/Word.java" />
         <option value="$PROJECT_DIR$/src/OOP/TextProcessing/Punctuation.java" />
-        <option value="$PROJECT_DIR$/src/OOP/TextProcessing/Text.java" />
         <option value="$PROJECT_DIR$/src/OOP/TextProcessing/Sentence.java" />
+        <option value="$PROJECT_DIR$/src/OOP/TextProcessing/Word.java" />
         <option value="$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java" />
+        <option value="$PROJECT_DIR$/src/OOP/TextProcessing/Text.java" />
       </list>
     </option>
   </component>
@@ -428,7 +417,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="EpamCourses1" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -768,7 +763,7 @@
       <workItem from="1416575842407" duration="5633000" />
       <workItem from="1416736767578" duration="3471000" />
       <workItem from="1416818398571" duration="8871000" />
-      <workItem from="1416902806500" duration="8648000" />
+      <workItem from="1416902806500" duration="21624000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1415118213048</created>
@@ -818,11 +813,15 @@
       <created>1416584562623</created>
       <updated>1416584562623</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Initial commit&#10;">
+      <created>1416917064458</created>
+      <updated>1416917064458</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317596000" />
+    <option name="totallyTimeSpent" value="330572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -835,7 +834,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41509435" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39779875" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32232705" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -848,7 +847,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18960468" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29402515" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22484277" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -883,43 +882,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Integral/Starter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="5" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/SafeSinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="38" selection-start="1277" selection-end="1277" vertical-scroll-proportion="1.5606557" vertical-offset="0" max-vertical-offset="1666" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Appl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Bisection/BisectionThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Bisection/BisectionMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="37" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0" vertical-offset="376" max-vertical-offset="986" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Integral/CalculatingThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="595" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Multithreading/Integral/IntegralFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0" vertical-offset="724" max-vertical-offset="1275" />
@@ -1115,50 +1077,97 @@
         <state line="3" column="77" selection-start="326" selection-end="326" vertical-scroll-proportion="0.14049587" vertical-offset="0" max-vertical-offset="363" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Word.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="37" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-          </folding>
+        <state line="36" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.18852459" vertical-offset="106" max-vertical-offset="9129">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Sentence.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="5" selection-start="1246" selection-end="1246" vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="1173">
-          <folding>
-            <element signature="e#1677#1678#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
-          </folding>
+        <state line="85" column="0" selection-start="2815" selection-end="2815" vertical-scroll-proportion="0.0" vertical-offset="995" max-vertical-offset="7140">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="103" selection-start="316" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+        <state line="62" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="23579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="227" column="9" selection-start="10526" selection-end="10529" vertical-scroll-proportion="0.0" vertical-offset="3162" max-vertical-offset="7837">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="813" column="0" selection-start="29849" selection-end="29849" vertical-scroll-proportion="0.33333334" vertical-offset="13374" max-vertical-offset="19635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="254" column="0" selection-start="9666" selection-end="9666" vertical-scroll-proportion="0.0" vertical-offset="3871" max-vertical-offset="8874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="559" column="0" selection-start="20686" selection-end="20686" vertical-scroll-proportion="0.0" vertical-offset="9056" max-vertical-offset="41157">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Punctuation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1411">
+        <state line="69" column="0" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="1114" max-vertical-offset="1411">
           <folding>
-            <element signature="e#1545#1546#0" expanded="true" />
             <element signature="e#1572#1573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="64" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1088">
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="12" selection-start="2194" selection-end="2194" vertical-scroll-proportion="0.0" vertical-offset="963" max-vertical-offset="1530">
+          <folding>
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Text.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.55737704" vertical-offset="0" max-vertical-offset="1156">
-          <folding>
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-          </folding>
+        <state line="77" column="0" selection-start="2154" selection-end="2154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="8" selection-start="815" selection-end="815" vertical-scroll-proportion="0.80085653" vertical-offset="0" max-vertical-offset="663">
+          <folding />
         </state>
       </provider>
     </entry>

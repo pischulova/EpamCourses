@@ -4,8 +4,10 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 import java.util.regex.Pattern;
 
 /**
@@ -13,7 +15,7 @@ import java.util.regex.Pattern;
  */
 public class Text {
     List<Sentence> sentences;
-    List<Word> words;
+    List<Word> allWords;
     String value;
     final String REGEX_PARAGRAPH = "(\\t|\\n|\\r|\\f|\\s+)";
     final String REGEX_SENTENCE = "(\\.|\\?|!|\\...|\\*/)\\s+";
@@ -21,17 +23,12 @@ public class Text {
 
     public Text(String fileName) {
         this.value = readFile(fileName);
-        sentences = new LinkedList<>();
-        words = new LinkedList<>();
+        sentences = new ArrayList<>();
+        allWords = new ArrayList<>();
     }
 
     public String getWholeText() {
         return value;
-    }
-
-    public List<Word> getWords() {
-
-        return words;
     }
 
     private String readFile(String fileName) {
@@ -61,10 +58,36 @@ public class Text {
         for (String s : sentenceArray) {
             sentences.add(new Sentence(s));
         }
-//        for (Sentence s : sentences) {
-//            System.out.println(s);
-//        }
         return sentences;
-
     }
+
+    public TreeSet<Sentence> sortSentences() {
+        TreeSet<Sentence> sorted = new TreeSet<>();
+        for (Sentence s : sentences)
+            sorted.add(s);
+        for (Sentence s : sorted)
+            System.out.println(s.getWordsNumber()+ " "+ s);
+        return sorted;
+    }
+
+    public List<Word> getAllWords() {
+        for (Sentence s : sentences) {
+            for (Word w : s.getWords())
+                allWords.add(w);
+        }
+        return allWords;
+    }
+
+    public void sortWordsByCharQty(Character ch) {
+        for (Word w : allWords) {
+            w.countChar(ch);
+        }
+        TreeSet<Word> sorted = new TreeSet<>();
+        for (Word w : allWords) {
+            sorted.add(w);
+        }
+        for (Word w : sorted)
+            System.out.println(w.getCharQty()+ " "+ w);
+    }
+
 }

@@ -1,5 +1,6 @@
 package OOP.TextProcessing;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -8,7 +9,7 @@ import java.util.regex.Pattern;
 /**
  * Created by А on 20.11.14.
  */
-public class Sentence {
+public class Sentence implements Comparable{
     private List<Word> words;
     private List<Punctuation> punctuationList;
     String value;
@@ -16,8 +17,9 @@ public class Sentence {
 
     public Sentence(String value) {
         this.value = value;
-        words = new LinkedList<>();
+        words = new ArrayList<>();
         punctuationList = new LinkedList<>();
+        getWords();
     }
 
     public List<Word> getWords() {
@@ -34,9 +36,6 @@ public class Sentence {
                 string = string.replace(" ", "");
             if (!string.equals("") && !string.matches(".*\\d.*"))
                 words.add(new Word(string));
-        }
-        for (Word w : words) {
-            System.out.println(w);
         }
         return words;
     }
@@ -57,10 +56,33 @@ public class Sentence {
         return value;
     }
 
-    @Override
+    public int getWordsNumber() {
+        return words.size();
+    }
+
     public String toString() {
         return "Sentence{" +
                 "value='" + value + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        Sentence s = (Sentence)o;
+        int our = this.getWordsNumber();
+        int other = s.getWordsNumber();
+        if (our < other)
+            return -1;
+        else if (our > other)
+            return 1;
+        else {
+            String s1 = value;
+            String s2 = s.getValue();
+            if (s1.compareToIgnoreCase(s2) > 0)
+                return 1;
+            else if (s1.compareToIgnoreCase(s2) < 0)
+                return -1;
+        }
+        return 0;
     }
 }
