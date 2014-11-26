@@ -8,18 +8,18 @@ public class Supervisor  {
     private int count;
     private Runnable carousel;
 
-    public Supervisor(int value, Runnable carousel) {
-        this.maxGuests = value;
-        this.count = value;
+    public Supervisor(int maxGuests, Runnable carousel) {
+        this.maxGuests = maxGuests;
+        this.count = maxGuests;
         this.carousel = carousel;
     }
 
     public synchronized void await() {
-        if (maxGuests < 0)
-            maxGuests = count;
-        while (--maxGuests > 0){
+        if (count <= 0)
+            count = maxGuests;
+        while (--count > 0){
             try {
-                System.out.println("Waiting for " + maxGuests + " more people..");
+                System.out.println("Waiting for " + count + " more people..");
                 wait();
             } catch (InterruptedException e) {
                 e.printStackTrace();

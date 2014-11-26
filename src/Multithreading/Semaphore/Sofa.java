@@ -10,40 +10,48 @@ import java.util.Queue;
  */
 public class Sofa {
     int count;
-    Queue<Person> queue;
+    Queue<Person> waitingQueue;
+    Queue<Thread> acquiredThreads;
 
     public Sofa(int count) {
         this.count = count;
-        queue = new LinkedList<>();
+        waitingQueue = new LinkedList<>();
+        acquiredThreads = new LinkedList<>();
     }
 
     public void acquire() throws InterruptedException {
-        if (queue.contains(Thread.currentThread()))
+        if (waitingQueue.contains(Thread.currentThread()))
             try {
                 throw new IllegalActionException();
             } catch (IllegalActionException e) {
-                System.out.println("You can not acquire semaphore twice.");
+                System.err.println("You can not acquire semaphore twice.");
             }
-        queue.add((Person)Thread.currentThread());
-        synchronized (this) {
-            while (queue.peek() != Thread.currentThread())
-                wait();
-            while (count == 0) {
-                wait();
+        else {
+            waitingQueue.add((Person)Thread.currentThread());
+            synchronized (this) {
+                while (waitingQueue.peek() != Thread.currentThread())
+                    wait();
+                while (count == 0) {
+                    wait();
+                }
+                acquiredThreads.add(Thread.currentThread());
+                waitingQueue.poll();
+                count--;
             }
-            queue.poll();
-            count--;
         }
     }
 
     public synchronized void release() {
-        if (!queue.contains(Thread.currentThread()))
+        if (!acquiredThreads.contains(Thread.currentThread())) {
             try {
                 throw new IllegalActionException();
             } catch (IllegalActionException e) {
-                System.out.println("You can not release before acquire.");
+                System.err.println("You can not release before acquire.");
             }
-        count++;
-        notifyAll();
+        } else {
+            count++;
+            acquiredThreads.remove(Thread.currentThread());
+            notifyAll();
+        }
     }
 }

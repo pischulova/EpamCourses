@@ -42,7 +42,6 @@ public class Text {
         try {
             while (reader.ready()) {
                 String line = reader.readLine();
-                line = line.replaceAll(REGEX_PARAGRAPH, " ");
                 sb.append(line);
             }
         } catch (IOException e) {
@@ -53,6 +52,7 @@ public class Text {
     }
 
     public List<Sentence> getSentences() {
+        value = value.replaceAll(REGEX_PARAGRAPH, " ");
         Pattern pattern = Pattern.compile(REGEX_SENTENCE);
         String[] sentenceArray = pattern.split(value);
         for (String s : sentenceArray) {

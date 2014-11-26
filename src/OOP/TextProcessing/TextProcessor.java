@@ -23,7 +23,6 @@ public class TextProcessor {
         text.sortSentences();
         text.getAllWords();
         text.sortWordsByCharQty('e');
-
     }
 
     public static void main(String[] args) {
