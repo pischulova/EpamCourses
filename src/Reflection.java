@@ -14,7 +14,7 @@ public class Reflection {
         for (Field f : fields) {
             System.out.println(f.getType() + " " + f.getName());
         }
-        Class[] paramTypes = {int.class}; //объект класса Класс для примитива Инт
+        Class[] paramTypes = {int.class}; // объект класса Класс для примитива Инт
         Constructor con = c.getDeclaredConstructor(paramTypes); // получаем конкретный конструктор, который принимает инт
         Object[] o = {new Integer(20)};
         A pa = (A)con.newInstance(o); // создаем новый объект класса А

@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b997aa25-c978-4bb6-a0b2-6ce7a5198edf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Reflection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Multithreading/Semaphore/Room.java" afterPath="$PROJECT_DIR$/src/Multithreading/Semaphore/Room.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Multithreading/Semaphore/Sofa.java" afterPath="$PROJECT_DIR$/src/Multithreading/Semaphore/Sofa.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Multithreading/CyclicBarrier/Supervisor.java" afterPath="$PROJECT_DIR$/src/Multithreading/CyclicBarrier/Supervisor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OOP/TextProcessing/Text.java" afterPath="$PROJECT_DIR$/src/OOP/TextProcessing/Text.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java" afterPath="$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/ExecutorThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/MyThreadPool.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/Starter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpamCourses1.iml" afterPath="$PROJECT_DIR$/EpamCourses1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Reflection.java" afterPath="$PROJECT_DIR$/src/Reflection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EpamCourses1.iws" />
@@ -72,61 +72,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Punctuation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Punctuation.java">
+      <file leaf-file-name="SkipListTester.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/SkipList/SkipListTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="1411">
+            <state line="14" column="24" selection-start="343" selection-end="343" vertical-scroll-proportion="0.39016393" vertical-offset="0" max-vertical-offset="610">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Word.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Word.java">
+      <file leaf-file-name="MySkipListMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="24" selection-start="886" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="1088">
+            <state line="96" column="23" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="1464" max-vertical-offset="3689">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sentence.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Sentence.java">
+      <file leaf-file-name="ConcurrentSkipListMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/ConcurrentSkipListMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="47" selection-start="2267" selection-end="2298" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="1598">
+            <state line="422" column="11" selection-start="19477" selection-end="19477" vertical-scroll-proportion="0.0" vertical-offset="6579" max-vertical-offset="52547">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Text.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Text.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="7" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="1428" max-vertical-offset="1683">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextProcessor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reflection.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Reflection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="51" selection-start="440" selection-end="440" vertical-scroll-proportion="0.052459016" vertical-offset="138" max-vertical-offset="1088">
-              <folding>
-                <element signature="e#2165#2166#0" expanded="true" />
-                <element signature="e#2189#2190#0" expanded="true" />
-                <element signature="e#2220#2221#0" expanded="true" />
-                <element signature="e#2246#2247#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,12 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Algorithms/RedBlackTree.java" />
-        <option value="$PROJECT_DIR$/src/file.txt" />
-        <option value="$PROJECT_DIR$/src/Algorithms/Appl.java" />
-        <option value="$PROJECT_DIR$/src/Algorithms/HuffmanAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Matrix.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/MatrixMultiplier.java" />
         <option value="$PROJECT_DIR$/src/Multithreading/Matrix/MultiplyThread.java" />
         <option value="$PROJECT_DIR$/src/Multithreading/Integral/Integra.java" />
         <option value="$PROJECT_DIR$/src/Multithreading/Matrix/MatrixMultiplier.java" />
@@ -193,8 +155,14 @@
         <option value="$PROJECT_DIR$/src/OOP/TextProcessing/Sentence.java" />
         <option value="$PROJECT_DIR$/src/OOP/TextProcessing/Text.java" />
         <option value="$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Test.java" />
         <option value="$PROJECT_DIR$/src/Reflection.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/Test.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/ExecutorThread.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/Starter.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/MyThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/SkipList/MySkipList.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/SkipList/SkipListTester.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java" />
       </list>
     </option>
   </component>
@@ -278,7 +246,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
+              <option name="myItemId" value="Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,73 +264,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
+              <option name="myItemId" value="Algorithms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TextProcessing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpamCourses1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpamCourses1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Multithreading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpamCourses1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpamCourses1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Multithreading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Semaphore" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpamCourses1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EpamCourses1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Multithreading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CyclicBarrier" />
+              <option name="myItemId" value="SkipList" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -435,18 +341,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\А\IdeaProjects\EpamCourses1\sources" />
       <recent name="C:\Users\А\IdeaProjects\EpamCourses1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Reflection">
-    <configuration default="false" name="Carousel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Multithreading.CyclicBarrier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Multithreading.CyclicBarrier.Carousel" />
+  <component name="RunManager" selected="Application.SkipListTester">
+    <configuration default="false" name="Reflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Reflection" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -461,14 +363,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TextProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="OOP.TextProcessing.*" />
+          <option name="PATTERN" value="Multithreading.ThreadPoolExecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="OOP.TextProcessing.TextProcessor" />
+      <option name="MAIN_CLASS_NAME" value="Multithreading.ThreadPoolExecutor.Starter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -489,14 +391,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Restaurant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Multithreading.Cafe.*" />
+          <option name="PATTERN" value="Multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Cafe.Restaurant" />
+      <option name="MAIN_CLASS_NAME" value="Multithreading.Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -511,14 +413,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Room" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MySkipListMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Multithreading.Semaphore.*" />
+          <option name="PATTERN" value="Algorithms.SkipList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Semaphore.Room" />
+      <option name="MAIN_CLASS_NAME" value="Algorithms.SkipList.MySkipListMap" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -529,13 +431,24 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="EpamCourses1" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Reflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Reflection" />
+    <configuration default="false" name="SkipListTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.SkipList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Algorithms.SkipList.SkipListTester" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -546,7 +459,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="EpamCourses1" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -762,19 +681,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Carousel" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TextProcessor" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Restaurant" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Room" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Reflection" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Reflection" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Starter" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MySkipListMap" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SkipListTester" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Reflection" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TextProcessor" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Carousel" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Room" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Restaurant" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SkipListTester" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MySkipListMap" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Starter" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Reflection" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -845,7 +764,11 @@
       <workItem from="1416902806500" duration="23545000" />
       <workItem from="1416994541782" duration="2301000" />
       <workItem from="1416998733162" duration="682000" />
-      <workItem from="1417009715925" duration="5055000" />
+      <workItem from="1417009715925" duration="6441000" />
+      <workItem from="1417093294728" duration="16398000" />
+      <workItem from="1417255755393" duration="145000" />
+      <workItem from="1417255929934" duration="22000" />
+      <workItem from="1417680963385" duration="30801000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1415118213048</created>
@@ -911,14 +834,18 @@
       <created>1416948097509</created>
       <updated>1416948097509</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="TextProcessor project finished&#10;Reflection added&#10;">
+      <created>1417017576813</created>
+      <updated>1417017576814</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="340531000" />
+    <option name="totallyTimeSpent" value="389283000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -928,7 +855,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39779875" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46855345" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32232705" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -941,12 +868,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18960468" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.254717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6965409" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -965,7 +892,8 @@
     <MESSAGE value="TextProcessing project is finished. Greetings to Gramotei ;)" />
     <MESSAGE value="Remove out folder from repo" />
     <MESSAGE value="Add out folder to .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add out folder to .gitignore" />
+    <MESSAGE value="TextProcessor project finished&#10;Reflection added&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="TextProcessor project finished&#10;Reflection added&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -979,66 +907,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/ThreadGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="904" column="0" selection-start="31829" selection-end="31829" vertical-scroll-proportion="0.0" vertical-offset="14692" max-vertical-offset="18139" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="18" selection-start="2296" selection-end="2296" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1190" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="27" selection-start="9868" selection-end="9868" vertical-scroll-proportion="-2.81491" vertical-offset="5753" max-vertical-offset="12988" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="704" column="0" selection-start="26431" selection-end="26431" vertical-scroll-proportion="0.0" vertical-offset="11255" max-vertical-offset="34255" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="12" selection-start="9674" selection-end="9674" vertical-scroll-proportion="0.3327869" vertical-offset="3384" max-vertical-offset="9911" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="664" column="48" selection-start="19940" selection-end="19976" vertical-scroll-proportion="1.020202" vertical-offset="10493" max-vertical-offset="19057" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="6" selection-start="7458" selection-end="7458" vertical-scroll-proportion="0.3326316" vertical-offset="2647" max-vertical-offset="3247" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Violinists/Show.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="28" selection-start="183" selection-end="183" vertical-scroll-proportion="0.1880531" vertical-offset="0" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Sum/SumCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="3031" selection-end="3031" vertical-scroll-proportion="0.7491803" vertical-offset="1073" max-vertical-offset="1683" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Sum/SumCalc2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="38" selection-start="917" selection-end="917" vertical-scroll-proportion="0.947541" vertical-offset="0" max-vertical-offset="1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Sum/SumThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/CyclicBarrier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="16" selection-start="5933" selection-end="5933" vertical-scroll-proportion="-0.12470024" vertical-offset="2721" max-vertical-offset="7718" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/HuffmanAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="5" selection-start="1566" selection-end="2284" vertical-scroll-proportion="0.8606557" vertical-offset="767" max-vertical-offset="2754" />
@@ -1119,7 +987,7 @@
         <state line="5" column="55" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file.txt">
+    <entry file="file://$PROJECT_DIR$/sources/file.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="77" selection-start="326" selection-end="326" vertical-scroll-proportion="0.14049587" vertical-offset="0" max-vertical-offset="363" />
       </provider>
@@ -1164,106 +1032,162 @@
         <state line="1" column="0" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Semaphore/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Multithreading/Semaphore/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Semaphore/Sofa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="28" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="94" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/CyclicBarrier/Carousel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="411" selection-end="411" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/CyclicBarrier/Supervisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="411" selection-end="411" vertical-scroll-proportion="0.52837574" vertical-offset="19" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/CyclicBarrier/Guest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="27" selection-start="565" selection-end="565" vertical-scroll-proportion="0.76516634" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Punctuation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="1114" max-vertical-offset="1411">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Word.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="24" selection-start="886" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Sentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="47" selection-start="2267" selection-end="2298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Text.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="7" selection-start="2311" selection-end="2311" vertical-scroll-proportion="0.0" vertical-offset="903" max-vertical-offset="1513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="25" selection-end="25" vertical-scroll-proportion="0.055737704" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="15" column="13" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/reflect/AccessibleObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="16" selection-start="4554" selection-end="4554" vertical-scroll-proportion="0.7163935" vertical-offset="1246" max-vertical-offset="4284">
-          <folding />
-        </state>
+        <state line="125" column="16" selection-start="4554" selection-end="4554" vertical-scroll-proportion="0.7163935" vertical-offset="1246" max-vertical-offset="4284" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Reflection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="440" selection-end="440" vertical-scroll-proportion="0.052459016" vertical-offset="138" max-vertical-offset="1088">
+        <state line="21" column="38" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.3590164" vertical-offset="138" max-vertical-offset="1088">
           <folding>
-            <element signature="e#2165#2166#0" expanded="true" />
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2220#2221#0" expanded="true" />
-            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#2166#2167#0" expanded="false" />
+            <element signature="e#2190#2191#0" expanded="false" />
+            <element signature="e#2221#2222#0" expanded="false" />
+            <element signature="e#2247#2248#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/Semaphore/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="29" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Punctuation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="1114" max-vertical-offset="1411" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="24" selection-start="886" selection-end="902" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="47" selection-start="2267" selection-end="2298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/Text.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="52" selection-start="528" selection-end="528" vertical-scroll-proportion="-0.22295082" vertical-offset="340" max-vertical-offset="1513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="903" selection-end="903" vertical-scroll-proportion="0.6377049" vertical-offset="36" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/Semaphore/Sofa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="28" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.4704918" vertical-offset="410" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/CyclicBarrier/Supervisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="411" selection-end="411" vertical-scroll-proportion="0.44262296" vertical-offset="19" max-vertical-offset="629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/CyclicBarrier/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="27" selection-start="565" selection-end="565" vertical-scroll-proportion="0.6409836" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/CyclicBarrier/Carousel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="411" selection-end="411" vertical-scroll-proportion="0.19508196" vertical-offset="0" max-vertical-offset="610" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="42" selection-start="9751" selection-end="9860" vertical-scroll-proportion="0.19344263" vertical-offset="3673" max-vertical-offset="5933">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="22" selection-start="1705" selection-end="1705" vertical-scroll-proportion="-5.827869" vertical-offset="4184" max-vertical-offset="4794" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="357" column="9" selection-start="15382" selection-end="15382" vertical-scroll-proportion="0.33260393" vertical-offset="5339" max-vertical-offset="7820" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1467" column="39" selection-start="58534" selection-end="58534" vertical-scroll-proportion="-1.0311476" vertical-offset="24939" max-vertical-offset="35037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="35" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0" vertical-offset="733" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/MyThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="13" selection-start="3345" selection-end="3345" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/ExecutorThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.2945735" vertical-offset="973" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1664" column="0" selection-start="70110" selection-end="70110" vertical-scroll-proportion="0.33255813" vertical-offset="26955" max-vertical-offset="53992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/ConcurrentSkipListMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="422" column="11" selection-start="19477" selection-end="19477" vertical-scroll-proportion="0.0" vertical-offset="6579" max-vertical-offset="52547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="23" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="1464" max-vertical-offset="3689">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/SkipList/SkipListTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="24" selection-start="343" selection-end="343" vertical-scroll-proportion="0.39016393" vertical-offset="0" max-vertical-offset="610">
+          <folding />
         </state>
       </provider>
     </entry>
