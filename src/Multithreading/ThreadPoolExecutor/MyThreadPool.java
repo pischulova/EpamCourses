@@ -75,6 +75,8 @@ public class MyThreadPool {
         return isShutDown;
     }
 
+    /** Shuts down ThreadPool immediately after all tasks are done
+     */
     public void shutdown() {
         int totalTasks = 0;
         for (ExecutorThread thread : threadList) {
@@ -87,9 +89,12 @@ public class MyThreadPool {
         System.out.println("The pool is shut down. Total tasks executed: " + totalTasks);
     }
 
-    public void awaitTermination(long timeout) throws InterruptedException {
+    /** Shuts down ThreadPool if all tasks are done or after waiting specified time (timeLimit)
+     * whichever happens first
+     */
+    public void awaitTermination(long timeLimit) throws InterruptedException {
         long startTime = System.currentTimeMillis();
-        while ((System.currentTimeMillis()-startTime)< timeout) {
+        while ((System.currentTimeMillis()-startTime)< timeLimit) {
             if (tasksQueue.isEmpty()) {
                 allTasksDone = true;
                 for (ExecutorThread thread : threadList) {

@@ -45,7 +45,7 @@ public class MySkipListMap {
         /**
          * Level represents a singly-linked-list of Nodes.
          * First Node is a dummy node, with minimum Integer value as key,
-         * null as value, null next and below nodes (or pointing ).
+         * null as value, null next node and below node pointing to a dummy node of level below (if present)
          */
         Level() {
             height = levels.size();
@@ -71,11 +71,6 @@ public class MySkipListMap {
         levels = new ArrayList<>();
     }
 
-    /**
-     *
-     *
-     *
-     */
     public synchronized void put(int key, String value) {
         int insertionHeight = 0;
         if (!levels.isEmpty()) {

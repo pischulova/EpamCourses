@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b997aa25-c978-4bb6-a0b2-6ce7a5198edf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/ExecutorThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/MyThreadPool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/Starter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EpamCourses1.iml" afterPath="$PROJECT_DIR$/EpamCourses1.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Reflection.java" afterPath="$PROJECT_DIR$/src/Reflection.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Argument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/ArgumentComposite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/PolishNotation/NotationTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Operator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/PolishNotation/PolishNotation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java" afterPath="$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/MyThreadPool.java" afterPath="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/MyThreadPool.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EpamCourses1.iws" />
@@ -72,29 +74,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SkipListTester.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/SkipList/SkipListTester.java">
+      <file leaf-file-name="NotationTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/NotationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="343" selection-end="343" vertical-scroll-proportion="0.39016393" vertical-offset="0" max-vertical-offset="610">
+            <state line="10" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MySkipListMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java">
+      <file leaf-file-name="PolishNotation.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/PolishNotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="23" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="1464" max-vertical-offset="3689">
+            <state line="86" column="9" selection-start="2794" selection-end="2899" vertical-scroll-proportion="2.285246" vertical-offset="0" max-vertical-offset="1887">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcurrentSkipListMap.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/ConcurrentSkipListMap.java">
+      <file leaf-file-name="Operator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Operator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="422" column="11" selection-start="19477" selection-end="19477" vertical-scroll-proportion="0.0" vertical-offset="6579" max-vertical-offset="52547">
+            <state line="6" column="10" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+              <folding>
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="4" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Argument.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Argument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="12" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArgumentComposite.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/ArgumentComposite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="23" selection-start="590" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="697">
+              <folding>
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#471#472#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,28 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Multithreading/Matrix/MultiplyThread.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Integral/Integra.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Matrix/MatrixMultiplier.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Integral/CalculatingThread.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Integral/IntegralFunction.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Integral/Starter.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Sum/SumThread.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Bisection/BisectionMethod.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Bisection/BisectionThread.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Cafe/Order.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Cafe/Dish.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Cafe/Cook.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Semaphore/MySemaph.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/McDonald/Cashtable.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/McDonald/McDon.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Cafe/Client.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Violinists/Show.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Violinists/Helper.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Violinists/Violinist.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Sum/SumCalculator.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Sum/SumCalc2.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/CyclicBarrier/Guest.java" />
         <option value="$PROJECT_DIR$/src/Multithreading/CyclicBarrier/Carousel.java" />
         <option value="$PROJECT_DIR$/src/Patterns/Builder/Direcor.java" />
         <option value="$PROJECT_DIR$/src/Decorator/Product.java" />
@@ -156,13 +180,35 @@
         <option value="$PROJECT_DIR$/src/OOP/TextProcessing/Text.java" />
         <option value="$PROJECT_DIR$/src/OOP/TextProcessing/TextProcessor.java" />
         <option value="$PROJECT_DIR$/src/Reflection.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/Test.java" />
         <option value="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/ExecutorThread.java" />
         <option value="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/Starter.java" />
-        <option value="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/MyThreadPool.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/SkipList/MySkipList.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/SkipList/SkipListTester.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/Test.java" />
+        <option value="$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/MyThreadPool.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java" />
+        <option value="$PROJECT_DIR$/src/Test.java" />
+        <option value="$PROJECT_DIR$/src/OOP/InventorySystem/Сommodity.java" />
+        <option value="$PROJECT_DIR$/src/OOP/InventorySystem/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/OOP/InventorySystem/Order.java" />
+        <option value="$PROJECT_DIR$/src/OOP/InventorySystem/Supplier.java" />
+        <option value="$PROJECT_DIR$/src/OOP/InventorySystem/Stand.java" />
+        <option value="$PROJECT_DIR$/src/OOP/InventorySystem/InventorySystem.java" />
+        <option value="$PROJECT_DIR$/src/OOP/InventorySystem/Product.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Component.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Primitive.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Argument.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Composite.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/ArgumentComposite.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Operation.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Component.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/NodeComponent.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Operator.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/PolishNotation.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/NotationTest.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Node.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/ArgumentComposite.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Argument.java" />
       </list>
     </option>
   </component>
@@ -200,6 +246,30 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EpamCourses1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EpamCourses1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,32 +338,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SkipList" />
+              <option name="myItemId" value="PolishNotation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="EpamCourses1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="EpamCourses1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Production">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolishNotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -340,29 +412,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\А\IdeaProjects\EpamCourses1\sources" />
       <recent name="C:\Users\А\IdeaProjects\EpamCourses1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SkipListTester">
-    <configuration default="false" name="Reflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Reflection" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="EpamCourses1" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.NotationTest">
     <configuration default="false" name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -388,28 +446,6 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Multithreading.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="EpamCourses1" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -466,6 +502,50 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Order" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="OOP.InventorySystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="OOP.InventorySystem.Order" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="EpamCourses1" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.PolishNotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Algorithms.PolishNotation.NotationTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="EpamCourses1" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -681,19 +761,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Reflection" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Starter" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MySkipListMap" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SkipListTester" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Starter" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MySkipListMap" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SkipListTester" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Order" />
+      <item index="4" class="java.lang.String" itemvalue="Application.NotationTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SkipListTester" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MySkipListMap" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NotationTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Order" />
         <item index="2" class="java.lang.String" itemvalue="Application.Starter" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Reflection" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SkipListTester" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MySkipListMap" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -768,7 +848,12 @@
       <workItem from="1417093294728" duration="16398000" />
       <workItem from="1417255755393" duration="145000" />
       <workItem from="1417255929934" duration="22000" />
-      <workItem from="1417680963385" duration="30801000" />
+      <workItem from="1417680963385" duration="31105000" />
+      <workItem from="1417784730588" duration="4875000" />
+      <workItem from="1417970355684" duration="3854000" />
+      <workItem from="1418027425286" duration="3078000" />
+      <workItem from="1418114552497" duration="5710000" />
+      <workItem from="1418291277522" duration="21350000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1415118213048</created>
@@ -838,11 +923,15 @@
       <created>1417017576813</created>
       <updated>1417017576814</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Concurrent SkipListMap implementation">
+      <created>1417724765220</created>
+      <updated>1417724765220</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389283000" />
+    <option name="totallyTimeSpent" value="428454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -853,6 +942,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46855345" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -868,12 +958,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18960468" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6965409" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23113208" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -893,7 +982,8 @@
     <MESSAGE value="Remove out folder from repo" />
     <MESSAGE value="Add out folder to .gitignore" />
     <MESSAGE value="TextProcessor project finished&#10;Reflection added&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="TextProcessor project finished&#10;Reflection added&#10;" />
+    <MESSAGE value="Concurrent SkipListMap implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Concurrent SkipListMap implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -907,81 +997,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/HuffmanAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="5" selection-start="1566" selection-end="2284" vertical-scroll-proportion="0.8606557" vertical-offset="767" max-vertical-offset="2754" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Patterns/Decorator/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="4" selection-start="509" selection-end="509" vertical-scroll-proportion="0.8639344" vertical-offset="0" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Patterns/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="5" selection-start="981" selection-end="981" vertical-scroll-proportion="0.8442623" vertical-offset="233" max-vertical-offset="901" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Patterns/Command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="20" selection-start="824" selection-end="824" vertical-scroll-proportion="0.9" vertical-offset="131" max-vertical-offset="833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/McDonald/Cashtable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="37" selection-start="937" selection-end="937" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/McDonald/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="55" selection-start="610" selection-end="610" vertical-scroll-proportion="0.47704917" vertical-offset="66" max-vertical-offset="1309" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/McDonald/McDon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="65" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.6737705" vertical-offset="99" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Violinists/Violinist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="24" selection-start="400" selection-end="400" vertical-scroll-proportion="0.50163937" vertical-offset="0" max-vertical-offset="610" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Violinists/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="765" selection-end="765" vertical-scroll-proportion="0.7557377" vertical-offset="117" max-vertical-offset="884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Cafe/Restaurant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="702" selection-end="702" vertical-scroll-proportion="0.5295082" vertical-offset="0" max-vertical-offset="610" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Cafe/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="311" selection-end="311" vertical-scroll-proportion="0.3622951" vertical-offset="0" max-vertical-offset="610" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Cafe/Cook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="22" selection-start="856" selection-end="856" vertical-scroll-proportion="0.19180328" vertical-offset="495" max-vertical-offset="1105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Cafe/Kitchen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="931" selection-end="931" vertical-scroll-proportion="0.58196723" vertical-offset="291" max-vertical-offset="901" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Cafe/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="60" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.55409837" vertical-offset="325" max-vertical-offset="935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Cafe/Dish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="95" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Multithreading/Exceptions/IllegalActionException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="55" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221" />
@@ -1042,18 +1057,6 @@
         <state line="125" column="16" selection-start="4554" selection-end="4554" vertical-scroll-proportion="0.7163935" vertical-offset="1246" max-vertical-offset="4284" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.3590164" vertical-offset="138" max-vertical-offset="1088">
-          <folding>
-            <element signature="e#2166#2167#0" expanded="false" />
-            <element signature="e#2190#2191#0" expanded="false" />
-            <element signature="e#2221#2222#0" expanded="false" />
-            <element signature="e#2247#2248#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Multithreading/Semaphore/Room.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="29" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
@@ -1106,21 +1109,12 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/BlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="257" column="42" selection-start="9751" selection-end="9860" vertical-scroll-proportion="0.19344263" vertical-offset="3673" max-vertical-offset="5933">
-          <folding />
-        </state>
+        <state line="257" column="42" selection-start="9751" selection-end="9860" vertical-scroll-proportion="0.19344263" vertical-offset="3673" max-vertical-offset="5933" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/AbstractExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="22" selection-start="1705" selection-end="1705" vertical-scroll-proportion="-5.827869" vertical-offset="4184" max-vertical-offset="4794" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="510">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/locks/Condition.java">
@@ -1130,63 +1124,183 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1467" column="39" selection-start="58534" selection-end="58534" vertical-scroll-proportion="-1.0311476" vertical-offset="24939" max-vertical-offset="35037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/Starter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="35" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0" vertical-offset="733" max-vertical-offset="1343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/MyThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="13" selection-start="3345" selection-end="3345" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/ExecutorThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="23" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <folding />
-        </state>
+        <state line="1467" column="39" selection-start="58534" selection-end="58534" vertical-scroll-proportion="-1.0311476" vertical-offset="24939" max-vertical-offset="35037" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.2945735" vertical-offset="973" max-vertical-offset="1360">
-          <folding />
-        </state>
+        <state line="5" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="-2.2945735" vertical-offset="973" max-vertical-offset="1360" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1664" column="0" selection-start="70110" selection-end="70110" vertical-scroll-proportion="0.33255813" vertical-offset="26955" max-vertical-offset="53992">
-          <folding />
-        </state>
+        <state line="1664" column="0" selection-start="70110" selection-end="70110" vertical-scroll-proportion="0.33255813" vertical-offset="26955" max-vertical-offset="53992" />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/concurrent/ConcurrentSkipListMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="422" column="11" selection-start="19477" selection-end="19477" vertical-scroll-proportion="0.0" vertical-offset="6579" max-vertical-offset="52547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="23" selection-start="2469" selection-end="2469" vertical-scroll-proportion="0.0" vertical-offset="1464" max-vertical-offset="3689">
-          <folding />
-        </state>
+        <state line="422" column="11" selection-start="19477" selection-end="19477" vertical-scroll-proportion="0.0" vertical-offset="6579" max-vertical-offset="52547" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/SkipList/SkipListTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="343" selection-end="343" vertical-scroll-proportion="0.39016393" vertical-offset="0" max-vertical-offset="610">
+        <state line="14" column="24" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="35" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0" vertical-offset="478" max-vertical-offset="1088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/ExecutorThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Multithreading/ThreadPoolExecutor/MyThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="32" selection-start="456" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="1305" max-vertical-offset="1989" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/SkipList/MySkipListMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="20" selection-start="2238" selection-end="2248" vertical-scroll-proportion="0.0" vertical-offset="1462" max-vertical-offset="3604" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="6" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.58196723" vertical-offset="359" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="44" selection-start="194" selection-end="194" vertical-scroll-proportion="0.25081968" vertical-offset="0" max-vertical-offset="610">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/InventorySystem/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="24" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/InventorySystem/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/InventorySystem/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/InventorySystem/Stand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="59" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/InventorySystem/InventorySystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="41" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/InventorySystem/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="629">
+          <folding>
+            <element signature="e#362#363#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="26" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.10819672" vertical-offset="886" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="581" column="0" selection-start="21675" selection-end="21675" vertical-scroll-proportion="0.3321033" vertical-offset="9396" max-vertical-offset="20859">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_67/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="669" column="13" selection-start="20118" selection-end="20118" vertical-scroll-proportion="0.33333334" vertical-offset="10861" max-vertical-offset="19057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/NotationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Argument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="4" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/ArgumentComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="23" selection-start="590" selection-end="598" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="697">
+          <folding>
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/Elements/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="53" max-vertical-offset="935">
+          <folding>
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/PolishNotation/PolishNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="9" selection-start="2794" selection-end="2899" vertical-scroll-proportion="2.285246" vertical-offset="0" max-vertical-offset="1887">
           <folding />
         </state>
       </provider>
