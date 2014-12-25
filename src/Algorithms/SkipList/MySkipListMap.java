@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Предложить собственную реализацию ConcurrentSkipListMap. д/з 12
+ * Предложить собственную реализацию ConcurrentSkipListMap. д/з  12
  *
  * Created by А on 04.12.14.
  */
